@@ -1,0 +1,36 @@
+{
+  "name": "cypress-weekend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "@types/node": "^18.14.6",
+    "cypress": "^12.7.0",
+    "cypress-network-idle": "^1.14.2",
+    "eslint-plugin-cypress": "^2.12.1",
+    "prettier": "2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cypress-plugin-steps": "^1.1.0",
+    "eslint": "^8.35.0"
+  },
+  "packageManager": "pnpm@7.29.1",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=19.7.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
+  },
+  "volta": {
+    "node": "19.7.0"
+  }
+}

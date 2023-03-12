@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom"],
+    "types": ["cypress-plugin-steps", "cypress", "node", "@testing-library/cypress"],
+    "isolatedModules": false,
+    "downlevelIteration": false
+  },
+  "include": ["**/*.ts"]
+}
